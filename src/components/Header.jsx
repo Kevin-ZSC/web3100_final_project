@@ -1,11 +1,16 @@
 export default function Header() {
+
+  const handleClick = () => {
+    
+  }
+
     return (
       <>
         <div className="relative h-80 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('../src/assets/img/daniel-frank-z971mh5y47c-unsplash.jpg')"}}>
           
           <div className="flex items-center justify-between px-3 py-2 bg-transparent hover:bg-white hover:cursor-pointer transition-all duration-300 shadow-md z-10">
             <img src="../src/assets/img/menu-bar.png" alt="Menu" className="w-10 hover:cursor-pointer" />
-            <img src="../src/assets/img/logo.png" alt="Logo" className="w-16 hover:cursor-pointer -ml-20" />
+            <img src="../src/assets/img/logo.png" alt="Logo" className="w-16 hover:cursor-pointer -ml-20" onClick={handleClick} />
             
             <div className="flex gap-4 items-center">
               <div className="flex items-center gap-2">
