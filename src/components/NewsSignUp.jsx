@@ -2,7 +2,7 @@
 
 export default function NewsSignUp() {
   return (
-    <div className="bg-blue-600 flex justify-between items-center px-5 py-4 shadow-lg sm:w-4/5 mx-auto mt-6">
+    <div className="bg-blue-600 flex justify-between items-center px-5 py-4 shadow-lg mx-auto mt-6">
         <p className="text-white text-lg font-medium">
             Keep up with the latest from the Resort
         </p>

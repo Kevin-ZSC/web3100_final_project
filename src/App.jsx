@@ -1,23 +1,19 @@
+import Lessons from "./components/Lessons";
+import Main from "./components/Main";
 
-import Header from "./components/Header"
-import LiveCam from "./components/LiveCam"
-import MediaComp from "./components/MediaComp"
-import NewsSignUp from "./components/NewsSignUp"
-import TodoPart from "./components/TodoPart"
-import Trail from "./components/Trail"
-import Footer from "./components/Footer"
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   
   return (
     <>
-      <Header />
-      <TodoPart />
-      <MediaComp />
-      <LiveCam />
-      <Trail />
-      <NewsSignUp />
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Main />} />
+          <Route path='/lessons' element={<Lessons />} />
+        </Routes>
+      </BrowserRouter>
+  
     </>
   )
 }
