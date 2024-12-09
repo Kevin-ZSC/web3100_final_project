@@ -65,7 +65,7 @@ export default function AnimatedText() {
 
           @media (min-width: 768px) {
             #animateMe {
-              font-size: 4rem;
+              font-size: 3rem;
               margin-top: 5rem;
             }
           }
