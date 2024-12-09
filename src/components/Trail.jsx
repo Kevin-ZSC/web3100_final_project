@@ -8,7 +8,7 @@ export default function Trail() {
         </h3>
         <div className="relative">
             <img
-            src="/assets/img/Trail-Map.jpg"
+            src="/web3100_final_project/assets/img/Trail-Map.jpg"
             alt="Trail Map"
             className="w-full h-auto rounded-lg shadow-md transition-transform duration-300 hover:scale-105"
             />

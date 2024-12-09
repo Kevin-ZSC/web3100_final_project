@@ -31,14 +31,14 @@ export default function NavLinks() {
     <>
       <div className="flex items-center justify-between px-3 py-2 bg-transparent hover:bg-white hover:cursor-pointer transition-all duration-300 shadow-md z-10">
         <img
-          src={isShowing ? "/assets/img/X.png" : "/assets/img/menu-bar.png"}
+          src={isShowing ? "/web3100_final_project/assets/img/X.png" : "/assets/img/menu-bar.png"}
           alt="Menu"
           className="w-10 hover:cursor-pointer"
 
           onClick={handleClickHam}
         />
         <img
-          src="/assets/img/logo.png"
+          src="/web3100_final_project/assets/img/logo.png"
           alt="Logo"
           className="w-16 hover:cursor-pointer text-center -ml-5 sm:ml-48 "
           onClick={handleLogo}
@@ -47,22 +47,22 @@ export default function NavLinks() {
         <div className="flex gap-4 items-center">
           <div className="flex items-center gap-2">
             <img
-              src="/assets/img/video-recording.png"
+              src="/web3100_final_project/assets/img/video-recording.png"
               alt="Video Recording"
               className="w-6 h-6"
             />
             <img
-              src="/assets/img/hot.png"
+              src="/web3100_final_project/assets/img/hot.png"
               alt="Hot"
               className="w-6 h-6"
             />
             <img
-              src="/assets/img/Search.png"
+              src="/web3100_final_project/assets/img/Search.png"
               alt="Search"
               className="w-6 h-6"
             />
             <img
-              src="/assets/img/Shopping-bag-nav.png"
+              src="/web3100_final_project/assets/img/Shopping-bag-nav.png"
               alt="Shopping Bag"
               className="w-6 h-6"
             />
@@ -74,7 +74,7 @@ export default function NavLinks() {
           >
             <p className="text-white font-bold ml-2">BOOK</p>
             <img
-              src="/assets/img/arrow_drop_down.png"
+              src="/web3100_final_project/assets/img/arrow_drop_down.png"
               alt="Arrow Down"
               className="w-5"
             />
