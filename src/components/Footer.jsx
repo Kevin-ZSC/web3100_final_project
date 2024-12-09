@@ -13,7 +13,7 @@ export default function Footer() {
     <div>
         <div className="bg-gray-800 flex justify-between items-center ">
             <div className="flex items-center py-2">
-                <img src="/assets/img/logo.png" alt="" className="w-16 h-16" />
+                <img src="/web3100_final_project/assets/img/logo.png" alt="" className="w-16 h-16" />
                 <img src= {isShowIcons ? "/web3100_final_project/assets/img/ChevronUp.png" : "/web3100_final_project/assets/img/Chevron down.png"} alt="" className="w-6 h-6 cursor-pointer mt-5 -ml-1" onClick={handleClick} />
                 <p className="text-white text-xs ml-3">370 Ski Martock Rd,<br/>
                 Windsor, NS B0N 2T0</p>

@@ -10,7 +10,7 @@ export default function Facebook() {
           Follow Me
         </button>
         <img
-          src="/web3100_final_project/assets/img/facebook.png"
+          src="/web3100_final_project/assets/img/Facebook.png"
           alt="facebook Logo"
           className="w-10 h-10 rounded-full"
         />
@@ -24,7 +24,7 @@ export default function Facebook() {
 
       <div className="w-4/5 mx-auto px-2 py-2 bg-white lg:h-72 md:w-3/4 rounded-lg shadow-md overflow-y-auto">
         <img
-          src="/assets/img/jakob-owens-eDnJQL21amc-unsplash.jpg"
+          src="/web3100_final_project/assets/img/jakob-owens-eDnJQL21amc-unsplash.jpg"
           alt=""
           className="lg:max-w-[260px] rounded-t-lg shadow-md transition-all duration-300"
         />
