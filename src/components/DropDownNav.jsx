@@ -10,25 +10,25 @@ export default function DropDownNav( {isDropDown} ) {
 >
   <li className="flex justify-between items-center px-4 py-3 hover:bg-blue-800/90 cursor-pointer">
     Tickets
-    <img src="/assets/img/Chevron right.png" alt="Chevron Right" className="w-4" />
+    <img src="/web3100_final_project/assets/img/Chevron right.png" alt="Chevron Right" className="w-4" />
   </li>
   <li className="flex justify-between items-center px-4 py-3 hover:bg-blue-800/90 cursor-pointer">
   <Link to="/lessons" className="flex justify-between items-center w-full">
     <span>Lessons</span>
-    <img src="/assets/img/Chevron right.png" alt="Chevron Right" className="w-4" />
+    <img src="/web3100_final_project/assets/img/Chevron right.png" alt="Chevron Right" className="w-4" />
   </Link>
 </li>
   <li className="flex justify-between items-center px-4 py-3 hover:bg-blue-800/90 cursor-pointer">
     Rental
-    <img src="/assets/img/Chevron right.png" alt="Chevron Right" className="w-4" />
+    <img src="/web3100_final_project/assets/img/Chevron right.png" alt="Chevron Right" className="w-4" />
   </li>
   <li className="flex justify-between items-center px-4 py-3 hover:bg-blue-800/90 cursor-pointer">
     Shop
-    <img src="/assets/img/Chevron right.png" alt="Chevron Right" className="w-4" />
+    <img src="/web3100_final_project/assets/img/Chevron right.png" alt="Chevron Right" className="w-4" />
   </li>
   <li className="flex justify-between items-center px-4 py-3 hover:bg-blue-800/90 cursor-pointer">
     Packages
-    <img src="/assets/img/Chevron right.png" alt="Chevron Right" className="w-4" />
+    <img src="/web3100_final_project/assets/img/Chevron right.png" alt="Chevron Right" className="w-4" />
   </li>
 </ul>
 

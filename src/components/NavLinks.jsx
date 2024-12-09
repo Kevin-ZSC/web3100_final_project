@@ -31,7 +31,7 @@ export default function NavLinks() {
     <>
       <div className="flex items-center justify-between px-3 py-2 bg-transparent hover:bg-white hover:cursor-pointer transition-all duration-300 shadow-md z-10">
         <img
-          src={isShowing ? "/web3100_final_project/assets/img/X.png" : "/assets/img/menu-bar.png"}
+          src={isShowing ? "/web3100_final_project/assets/img/X.png" : "/web3100_final_project/assets/img/menu-bar.png"}
           alt="Menu"
           className="w-10 hover:cursor-pointer"
 

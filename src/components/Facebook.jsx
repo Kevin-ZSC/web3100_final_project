@@ -10,7 +10,7 @@ export default function Facebook() {
           Follow Me
         </button>
         <img
-          src="/assets/img/facebook.png"
+          src="/web3100_final_project/assets/img/facebook.png"
           alt="facebook Logo"
           className="w-10 h-10 rounded-full"
         />
