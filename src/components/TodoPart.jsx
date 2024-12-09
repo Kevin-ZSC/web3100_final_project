@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 export default function TodoPart() {
 
   const navCardData = [
-    { imageSrc: "../src/assets/img/pass.png", altText: "Ticket Icon", title: "Tickets", link: "/tickets" },
-    { imageSrc: "../src/assets/img/rental.png", altText: "Rental Icon", title: "Rentals", link: "/rentals" },
-    { imageSrc: "../src/assets/img/skiing.png", altText: "Lesson Icon", title: "Lessons", link: "/lessons" }, 
-    { imageSrc: "../src/assets/img/shopping-bag.png", altText: "Shops Icon", title: "Shops", link: "/shops" },
-    { imageSrc: "../src/assets/img/restaurant.png", altText: "Restaurant Icon", title: "Restaurant", link: "/restaurant" },
-    { imageSrc: "../src/assets/img/helmet.png", altText: "Helmet Icon", title: "Awareness", link: "/awareness" },
+    { imageSrc: "/assets/img/pass.png", altText: "Ticket Icon", title: "Tickets", link: "/tickets" },
+    { imageSrc: "/assets/img/rental.png", altText: "Rental Icon", title: "Rentals", link: "/rentals" },
+    { imageSrc: "/assets/img/skiing.png", altText: "Lesson Icon", title: "Lessons", link: "/lessons" }, 
+    { imageSrc: "/assets/img/shopping-bag.png", altText: "Shops Icon", title: "Shops", link: "/shops" },
+    { imageSrc: "/assets/img/restaurant.png", altText: "Restaurant Icon", title: "Restaurant", link: "/restaurant" },
+    { imageSrc: "/assets/img/helmet.png", altText: "Helmet Icon", title: "Awareness", link: "/awareness" },
   ];
 
       const [isSmallScreen, setIsSmallScreen] = useState(false);

@@ -24,19 +24,19 @@ export default function Lessons() {
 
   const lessonsContents = [
     {
-      imageUrl: "../src/assets/img/victoire-joncheray-EF0UG0xFgnA-unsplash.jpg",
+      imageUrl: "/assets/img/victoire-joncheray-EF0UG0xFgnA-unsplash.jpg",
       textContent:
         "A snow school lesson is an exciting opportunity for individuals of all ages and skill levels to experience the joy of skiing or snowboarding in a structured and supportive environment.These lessons are typically offered at ski resorts and winter sports facilities,led by certified instructors who tailor their teaching to the needs of the participants.",
       title: "Snow School",
     },
     {
-      imageUrl: "../src/assets/img/ben-koorengevel-QtyErb_h4PU-unsplash.jpg",
+      imageUrl: "/assets/img/ben-koorengevel-QtyErb_h4PU-unsplash.jpg",
       textContent:
         "A private snow school lesson offers a one-on-one (or small group) experience tailored specifically to the participant's needs, skill level, and goals. This personalized approach ensures faster progress, focused attention, and a more comfortable learning environment",
       title: "Private Lessons",
     },
     {
-      imageUrl: "../src/assets/img/nejc-peternelj-SCXuSA6-Szg-unsplash.jpg",
+      imageUrl: "/assets/img/nejc-peternelj-SCXuSA6-Szg-unsplash.jpg",
       textContent:
         "Certification lessons are specialized training sessions designed for individuals aiming to become certified ski or snowboard instructors, or for those seeking advanced recognition in their snow sports skills. These lessons focus on mastering technical abilities, teaching methodologies, and safety practices required to pass industry-recognized certification exams.",
       title: "Certification Lessons",

@@ -10,7 +10,7 @@ export default function Ins() {
           Follow Me
         </button>
         <img
-          src="../src/assets/img/Instagram.png"
+          src="/assets/img/Instagram.png"
           alt="Instagram Logo"
           className="w-10 h-10 rounded-full"
         />
@@ -24,7 +24,7 @@ export default function Ins() {
 
       <div className="flex justify-center px-8 lg:mt-16">
         <img
-          src="../src/assets/img/lucas-favre-BRTV55ErUZg-unsplash.jpg"
+          src="/assets/img/lucas-favre-BRTV55ErUZg-unsplash.jpg"
           alt="Instagram Post"
           className="lg:max-w-[260px] rounded-t-lg shadow-md transition-all duration-300 hover:scale-105"
         />

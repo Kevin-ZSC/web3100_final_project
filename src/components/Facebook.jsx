@@ -10,7 +10,7 @@ export default function Facebook() {
           Follow Me
         </button>
         <img
-          src="../src/assets/img/facebook.png"
+          src="/assets/img/facebook.png"
           alt="facebook Logo"
           className="w-10 h-10 rounded-full"
         />
@@ -24,7 +24,7 @@ export default function Facebook() {
 
       <div className="w-4/5 mx-auto px-2 py-2 bg-white lg:h-72 md:w-3/4 rounded-lg shadow-md overflow-y-auto">
         <img
-          src="../src/assets/img/jakob-owens-eDnJQL21amc-unsplash.jpg"
+          src="/assets/img/jakob-owens-eDnJQL21amc-unsplash.jpg"
           alt=""
           className="lg:max-w-[260px] rounded-t-lg shadow-md transition-all duration-300"
         />
@@ -36,20 +36,6 @@ export default function Facebook() {
             wonderful ambassadors and always there to help. Thanks!
           </p>
         </div>
-
-        {/* <img
-          src="../src/assets/img/467631059_1073504948115985_3820717846411097302_n.jpg"
-          alt=""
-          className="w-full rounded-t-lg shadow-md transition-all duration-300"
-        />
-        <div className="p-4">
-          <p>
-            This great group of snow pros stopped by for a visit on Sunday
-            Interested in becoming a snowboard or ski instructor? Already
-            certified and interested in a part time or full time position?
-            Please contact snowschool@martock.com
-          </p>
-        </div> */}
       </div>
 
       <div className="flex justify-center">
