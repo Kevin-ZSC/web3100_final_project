@@ -7,7 +7,7 @@ function App() {
   
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/web3100_final_project/">
         <Routes>
           <Route path='/' element={<Main />} />
           <Route path='/lessons' element={<Lessons />} />
